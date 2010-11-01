@@ -1,24 +1,10 @@
 <?xml version="1.0"?>
 <project name="ErebotModule_AutoConnect" description="" default="all">
-    <!--
-        @TODO: Add descriptions for the targets so that they provide
-        useful information when listed using "phing -l".
-    -->
-
     <property name="force-coverage" value="true"/>
-
     <property name="locales"        value="fr_FR,en_US"/>
     <property name="domain"         value="AutoConnect"/>
     <property name="version"        value="0.3.2"/>
     <property name="email"          value="clicky@erebot.net"/>
-    <property name="summary"        value="Automatically connect to a given IRC server"/>
-    <!-- @TODO: Use real values here. -->
-    <property name="description"><![CDATA[
-${summary}
-]]></property>
-    <property name="notes"><![CDATA[
-@TODO
-]]></property>
 
     <fileset dir="src/" id="sources">
         <include name="**/*.php"/>
