@@ -19,5 +19,7 @@
         <exclude name="Core/**/*.php"/>
     </fileset>
 
+    <php expression="class ErebotModuleBase {}"/>
+
     <import file="buildenv/build.xml"/>
 </project>
