@@ -16,8 +16,8 @@
     along with Erebot.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-class   ErebotModule_AutoConnect
-extends ErebotModuleBase
+class   Erebot_Module_AutoConnect
+extends Erebot_Module_Base
 {
     public function reload($flags)
     {
