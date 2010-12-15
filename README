@@ -1,3 +1,6 @@
 Automatically connect to a list of IRC networks
 
-Package detailed description here (found in README)
+This module is required in order for Erebot to work properly.
+You should probably always install it.
+When loaded in the configuration of a particular server, it
+makes Erebot try to automatically connect to that server.
