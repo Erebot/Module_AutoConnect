@@ -27,7 +27,11 @@
 class   Erebot_Module_AutoConnect
 extends Erebot_Module_Base
 {
-    public function reload($flags)
+    public function _reload($flags)
+    {
+    }
+
+    protected function _unload()
     {
     }
 }
