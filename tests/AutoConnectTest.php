@@ -30,12 +30,12 @@ extends ErebotModuleTestCase
      * whether we can actually load the module, nothing more. */
     public function testAutoConnect()
     {
-        $this->_module = new Erebot_Module_AutoConnect(
+        $this->_module = new Erebot_Module_AutoConnect(NULL);
+        $this->_module->reload(
             $this->_connection,
-            NULL
+            Erebot_Module_Base::RELOAD_ALL |
+            Erebot_Module_Base::RELOAD_INIT
         );
-        $this->_module->reload( Erebot_Module_Base::RELOAD_ALL |
-                                Erebot_Module_Base::RELOAD_INIT);
     }
 }
 
