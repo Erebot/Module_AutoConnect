@@ -27,7 +27,7 @@ extends ErebotModuleTestCase
 {
     /* Testing this module is quite meaningless for the time being
      * because it's pretty much empty. Therefore, we only check
-     * whether we can actually load the module, nothing more. */
+     * whether we can actually load/unload the module, nothing more. */
     public function testAutoConnect()
     {
         $this->_module = new Erebot_Module_AutoConnect(NULL);
@@ -36,6 +36,7 @@ extends ErebotModuleTestCase
             Erebot_Module_Base::RELOAD_ALL |
             Erebot_Module_Base::RELOAD_INIT
         );
+        $this->_module->unload();
     }
 }
 
