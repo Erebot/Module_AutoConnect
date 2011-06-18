@@ -11,5 +11,7 @@
         <exclude name="testenv/**/*.php"/>
     </fileset>
 
+    <property name="tagfiles" value="Erebot"/>
+
     <import file="buildenv/build.xml"/>
 </project>
