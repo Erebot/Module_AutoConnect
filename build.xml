@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <project name="Erebot_Module_AutoConnect" description="" default="all">
     <property name="qa.coverage.force" value="false"/>
+    <property name="tagfiles" value="Erebot"/>
 
     <fileset dir="src/" id="sources">
         <include name="**/*.php"/>
@@ -10,8 +11,6 @@
         <include name="**/*.php"/>
         <exclude name="testenv/**/*.php"/>
     </fileset>
-
-    <property name="tagfiles" value="Erebot"/>
 
     <import file="buildenv/build.xml"/>
 </project>
