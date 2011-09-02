@@ -22,13 +22,16 @@
  *      will make the bot try to automatically connect to that
  *      network.
  *
- * This module is implicitly used by the Core (where its name
- * is hard-coded) and doesn't to do anything special to work.
+ * This module is implicitly used by the Core (where its name is pretty
+ * much hard-coded) and doesn't need to do anything special to work.
  */
 class   Erebot_Module_AutoConnect
 extends Erebot_Module_Base
 {
-    /// \copydoc Erebot_Module_Base::_reload()
+    /**
+     * \copydoc Erebot_Module_Base::_reload()
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     */
     public function _reload($flags)
     {
     }
