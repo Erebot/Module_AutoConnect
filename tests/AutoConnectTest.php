@@ -24,7 +24,7 @@ if (!defined('TESTENV_DIR'))
 require_once(TESTENV_DIR . DIRECTORY_SEPARATOR . 'bootstrap.php');
 
 class   AutoConnectTest
-extends ErebotModuleTestCase
+extends Erebot_Testenv_Module_TestCase
 {
     /* Testing this module is quite meaningless for the time being
      * because it's pretty much empty. Therefore, we only check
