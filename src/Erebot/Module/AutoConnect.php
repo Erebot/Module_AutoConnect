@@ -29,7 +29,17 @@ class   Erebot_Module_AutoConnect
 extends Erebot_Module_Base
 {
     /**
-     * \copydoc Erebot_Module_Base::_reload()
+     * This method is called whenever the module is (re)loaded.
+     *
+     * \param int $flags
+     *      A bitwise OR of the Erebot_Module_Base::RELOAD_*
+     *      constants. Your method should take proper actions
+     *      depending on the value of those flags.
+     *
+     * \note
+     *      See the documentation on individual RELOAD_*
+     *      constants for a list of possible values.
+     *
      * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function _reload($flags)
