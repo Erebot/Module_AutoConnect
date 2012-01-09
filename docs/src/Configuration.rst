@@ -1,5 +1,5 @@
-Configuration options
-=====================
+Configuration
+=============
 
 Configuration options
 ---------------------
@@ -15,7 +15,7 @@ configuration level and to disable it only for specific networks.
 
 ..  parsed-code:: xml
 
-    <?xml version="1.0" ?>
+    <?xml version="1.0"?>
     <configuration
       xmlns="http://localhost/Erebot/"
       version="..."
