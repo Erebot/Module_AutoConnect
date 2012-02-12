@@ -7,3 +7,4 @@ This module does not provide any command. Just add this module to your
 ..  _`configuration`:
     Configuration.html
 
+.. vim: ts=4 et
