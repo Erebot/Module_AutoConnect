@@ -21,9 +21,9 @@ Contents:
 
 Current status on http://travis-ci.org/:
 
-..  image:: https://secure.travis-ci.org/fpoirotte/Erebot_Module_Admin.png
+..  image:: https://secure.travis-ci.org/fpoirotte/Erebot_Module_AutoConnect.png
     :alt: unknown
-    :target: http://travis-ci.org/#!/fpoirotte/Erebot_Module_Admin/
+    :target: http://travis-ci.org/#!/fpoirotte/Erebot_Module_AutoConnect/
 
 ..  _`Erebot`:
     https://www.erebot.net/
