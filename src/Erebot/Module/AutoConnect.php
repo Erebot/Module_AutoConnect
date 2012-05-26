@@ -44,6 +44,7 @@ extends Erebot_Module_Base
      */
     public function _reload($flags)
     {
+        $cls = $this->getFactory('!Callable');
         $this->registerHelpMethod(new $cls(array($this, 'getHelp')));
     }
 
