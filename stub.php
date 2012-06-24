@@ -38,19 +38,26 @@ try {
 }
 
 // Return metadata about this package.
-return array(
+$packageName = '@PACKAGE_NAME@';
+$packageVersion = '@PACKAGE_VERSION@';
+$metadata = array(
     'pear.erebot.net/@PACKAGE_NAME@' => array(
         'version' => '@PACKAGE_VERSION@',
         'path' =>
             "phar://" . __FILE__ .
             DIRECTORY_SEPARATOR . "@PACKAGE_NAME@-@PACKAGE_VERSION@" .
             DIRECTORY_SEPARATOR . "php",
-        'requires' => array(
-            'php >= 5.2.2',
-            'virt-Erebot_API = 0.2.*',
-            'pear.erebot.net/Erebot',
-        ),
-    ),
+    )
 );
+
+require(
+    "phar://" . __FILE__ .
+    DIRECTORY_SEPARATOR . "@PACKAGE_NAME@-@PACKAGE_VERSION@" .
+    DIRECTORY_SEPARATOR . "data" .
+    DIRECTORY_SEPARATOR . "pear.erebot.net" .
+    DIRECTORY_SEPARATOR . "@PACKAGE_NAME@" .
+    DIRECTORY_SEPARATOR . "package.php"
+);
+return $metadata;
 
 __HALT_COMPILER();
