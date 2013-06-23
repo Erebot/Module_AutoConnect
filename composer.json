@@ -1,5 +1,5 @@
 {
-    "name": "erebot/erebot-module-autoconnect",
+    "name": "erebot/autoconnect-module",
     "description": "Erebot module to connect automatically to an IRC server",
     "keywords": ["Erebot", "IRC", "bot", "module"],
     "homepage": "https://github.com/Erebot/Erebot_Module_AutoConnect",
@@ -20,8 +20,8 @@
     },
     "repositories": [
         {
-            "type": "pear",
-            "url": "http://pear.php.net"
+            "type": "composer",
+            "url": "http://packages.erebot.net"
         }
     ],
     "require": {
