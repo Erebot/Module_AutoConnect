@@ -26,7 +26,11 @@
     ],
     "require": {
         "php": ">=5.2.2",
-        "erebot/erebot-api": "*"
+        "erebot/erebot-api": "dev-master"
+    },
+    "require-dev": {
+        "erebot/buildenv": "dev-master",
+        "erebot/testenv": "dev-master"
     },
     "autoload": {
         "psr-0": {
