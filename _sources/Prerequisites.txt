@@ -14,5 +14,5 @@ Erebot (core) adds its own set of `prerequisites`_ which usually already
 cover those.
 
 ..  _`prerequisites`:
-    http://erebot.github.com/Erebot/Prerequisites.html
+    :doc:`Erebot/Prerequisites.html`
 
