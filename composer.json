@@ -1,4 +1,5 @@
 {
+    "minimum-stability": "dev",
     "name": "erebot/autoconnect-module",
     "description": "Erebot module to connect automatically to an IRC server",
     "keywords": ["Erebot", "IRC", "bot", "module"],
@@ -20,16 +21,18 @@
     },
     "require": {
         "php": ">=5.2.2",
-        "erebot/api": "~0.6.1",
+        "erebot/api": "dev-master",
         "erebot/generic-doc": "~0.1.0"
     },
     "require-dev": {
         "erebot/buildenv": "~1.1",
-        "erebot/testenv": "~1.0"
+        "erebot/testenv": "~1.0",
+        "pdepend/pdepend": "@stable",
+        "phpunit/phpunit": "@stable"
     },
     "autoload": {
-        "psr-0": {
-            "Erebot": "src/"
+        "psr-4": {
+            "Erebot\\Module\\": "src/"
         }
     },
     "extra": {

@@ -16,6 +16,8 @@
     along with Erebot.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+namespace Erebot\Module;
+
 /**
  * \brief
  *      A module which, when enabled on a particular IRC network
@@ -25,8 +27,7 @@
  * This module is implicitly used by the Core (where its name is pretty
  * much hard-coded) and doesn't need to do anything special to work.
  */
-class   Erebot_Module_AutoConnect
-extends Erebot_Module_Base
+class AutoConnect extends \Erebot\Module\Base implements \Erebot\Interfaces\HelpEnabled
 {
     /**
      * This method is called whenever the module is (re)loaded.
@@ -42,40 +43,32 @@ extends Erebot_Module_Base
      *
      * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
-    public function _reload($flags)
-    {
-        $cls = $this->getFactory('!Callable');
-        $this->registerHelpMethod(new $cls(array($this, 'getHelp')));
-    }
-
-    /// \copydoc Erebot_Module_Base::_unload()
-    protected function _unload()
+    public function reload($flags)
     {
     }
 
     /**
      * Provides help about this module.
      *
-     * \param Erebot_Interface_Event_Base_TextMessage $event
+     * \param Erebot::Interfaces::Event::Base_TextMessage $event
      *      Some help request.
      *
-     * \param Erebot_Interface_TextWrapper $words
+     * \param Erebot::Interfaces::TextWrapper $words
      *      Parameters passed with the request. This is the same
      *      as this module's name when help is requested on the
      *      module itself (in opposition with help on a specific
      *      command provided by the module).
      */
     public function getHelp(
-        Erebot_Interface_Event_Base_TextMessage $event,
-        Erebot_Interface_TextWrapper            $words
-    )
-    {
-        if ($event instanceof Erebot_Interface_Event_Base_Private) {
+        \Erebot\Interfaces\Event\Base\TextMessage $event,
+        \Erebot\Interfaces\TextWrapper $words
+    ) {
+        if ($event instanceof \Erebot\Interfaces\Event\Base\PrivateMessage) {
             $target = $event->getSource();
-            $chan   = NULL;
-        }
-        else
+            $chan   = null;
+        } else {
             $target = $chan = $event->getChan();
+        }
 
         $fmt        = $this->getFormatter($chan);
         $moduleName = strtolower(get_class());
@@ -89,8 +82,7 @@ extends Erebot_Module_Base
                 "at startup."
             );
             $this->sendMessage($target, $msg);
-            return TRUE;
+            return true;
         }
     }
 }
-

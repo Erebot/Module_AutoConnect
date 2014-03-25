@@ -21,13 +21,13 @@ extends Erebot_Testenv_Module_TestCase
 {
     public function setUp()
     {
-        $this->_module = new Erebot_Module_AutoConnect(NULL);
+        $this->module = new \Erebot\Module\AutoConnect(null);
         parent::setUp();
         $this->_connection
             ->expects($this->any())
             ->method('getModule')
             ->will($this->returnValue($this));
-        $this->_module->reload($this->_connection, 0);
+        $this->module->reload($this->_connection, 0);
     }
 
     public function realRegisterHelpMethod($module, $callback)
@@ -40,12 +40,12 @@ extends Erebot_Testenv_Module_TestCase
      * whether we can actually load/unload the module, nothing more. */
     public function testAutoConnect()
     {
-        $this->_module->reload(
+        $this->module->moduleReload(
             $this->_connection,
-            Erebot_Module_Base::RELOAD_ALL |
-            Erebot_Module_Base::RELOAD_INIT
+            \Erebot\Module\Base::RELOAD_ALL |
+            \Erebot\Module\Base::RELOAD_INIT
         );
-        $this->_module->unload();
+        $this->module->moduleUnload();
     }
 }
 
