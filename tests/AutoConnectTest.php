@@ -21,6 +21,7 @@ extends Erebot_Testenv_Module_TestCase
 {
     public function setUp()
     {
+        class_exists('\\Erebot\\Module\\callable');
         $this->module = new \Erebot\Module\AutoConnect(null);
         parent::setUp();
         $this->_connection
