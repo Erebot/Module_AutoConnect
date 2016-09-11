@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e4c8c8f67ba24dc9fcdfc0591f009f4c",
-    "content-hash": "c41ec0df18daa717ba42da5c30bb542f",
+    "hash": "37afab44504bb8d22ad50235d87ec0c2",
+    "content-hash": "23a12f721c59211447c6bcb35bbedee8",
     "packages": [
         {
             "name": "erebot/api",
@@ -114,98 +114,6 @@
                 "callable"
             ],
             "time": "2016-07-16 16:21:59"
-        },
-        {
-            "name": "erebot/generic-doc",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Erebot/GenericDoc.git",
-                "reference": "a211b4d8957e018916fd52ba5d6771ce7aedb4ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/GenericDoc/zipball/a211b4d8957e018916fd52ba5d6771ce7aedb4ad",
-                "reference": "a211b4d8957e018916fd52ba5d6771ce7aedb4ad",
-                "shasum": ""
-            },
-            "require": {
-                "erebot/installers": "*"
-            },
-            "type": "erebot-generic-doc",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "François Poirotte",
-                    "email": "clicky@erebot.net",
-                    "role": "lead"
-                }
-            ],
-            "description": "Generic documentation for Erebot modules",
-            "homepage": "https://github.com/Erebot/Erebot_Module_Skeleton",
-            "keywords": [
-                "Erebot",
-                "bot",
-                "doc",
-                "documentation",
-                "irc"
-            ],
-            "time": "2014-01-01 20:30:57"
-        },
-        {
-            "name": "erebot/installers",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Erebot/Installers.git",
-                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/Installers/zipball/11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
-                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
-                "shasum": ""
-            },
-            "type": "composer-installer",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                },
-                "class": "Erebot\\Composer\\GenericDocInstaller"
-            },
-            "autoload": {
-                "psr-0": {
-                    "Erebot\\Composer": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "François Poirotte",
-                    "email": "clicky@erebot.net",
-                    "role": "lead"
-                }
-            ],
-            "description": "Composer installers for Erebot",
-            "homepage": "https://github.com/Erebot/Erebot_Installers",
-            "keywords": [
-                "Erebot",
-                "bot",
-                "installers",
-                "irc"
-            ],
-            "time": "2013-10-20 20:39:40"
         },
         {
             "name": "erebot/intl",
@@ -575,6 +483,98 @@
                 "validation"
             ],
             "time": "2014-04-05 12:50:53"
+        },
+        {
+            "name": "erebot/generic-doc",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Erebot/GenericDoc.git",
+                "reference": "a211b4d8957e018916fd52ba5d6771ce7aedb4ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Erebot/GenericDoc/zipball/a211b4d8957e018916fd52ba5d6771ce7aedb4ad",
+                "reference": "a211b4d8957e018916fd52ba5d6771ce7aedb4ad",
+                "shasum": ""
+            },
+            "require": {
+                "erebot/installers": "*"
+            },
+            "type": "erebot-generic-doc",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "François Poirotte",
+                    "email": "clicky@erebot.net",
+                    "role": "lead"
+                }
+            ],
+            "description": "Generic documentation for Erebot modules",
+            "homepage": "https://github.com/Erebot/Erebot_Module_Skeleton",
+            "keywords": [
+                "Erebot",
+                "bot",
+                "doc",
+                "documentation",
+                "irc"
+            ],
+            "time": "2014-01-01 20:30:57"
+        },
+        {
+            "name": "erebot/installers",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Erebot/Installers.git",
+                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Erebot/Installers/zipball/11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
+                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
+                "shasum": ""
+            },
+            "type": "composer-installer",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                },
+                "class": "Erebot\\Composer\\GenericDocInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Erebot\\Composer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "François Poirotte",
+                    "email": "clicky@erebot.net",
+                    "role": "lead"
+                }
+            ],
+            "description": "Composer installers for Erebot",
+            "homepage": "https://github.com/Erebot/Erebot_Installers",
+            "keywords": [
+                "Erebot",
+                "bot",
+                "installers",
+                "irc"
+            ],
+            "time": "2013-10-20 20:39:40"
         },
         {
             "name": "erebot/styling",
