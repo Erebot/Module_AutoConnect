@@ -1,9 +1,9 @@
 {
-    "minimum-stability": "dev",
+    "prefer-stable": true,
     "name": "erebot/autoconnect-module",
     "description": "Erebot module to connect automatically to an IRC server",
     "keywords": ["Erebot", "IRC", "bot", "module"],
-    "homepage": "https://github.com/Erebot/Erebot_Module_AutoConnect",
+    "homepage": "https://github.com/Erebot/Module_AutoConnect",
     "license": "GPL-3.0+",
     "authors": [
         {
@@ -13,22 +13,20 @@
         }
     ],
     "support": {
-        "email": "erebot@erebot.net",
-        "issues": "https://github.com/Erebot/Erebot_Module_AutoConnect/issues",
-        "wiki": "http://erebot.github.io/Erebot_Module_AutoConnect/",
+        "issues": "https://github.com/Erebot/Module_AutoConnect/issues",
         "irc": "irc://irc.iiens.net/Erebot",
-        "source": "https://github.com/Erebot/Erebot_Module_AutoConnect"
+        "source": "https://github.com/Erebot/Module_AutoConnect"
     },
     "require": {
         "php": ">=5.3.0",
-        "erebot/api": "dev-master",
-        "erebot/generic-doc": "dev-master"
+        "erebot/api": "*",
+        "erebot/generic-doc": "*"
     },
     "require-dev": {
-        "erebot/buildenv": "~1.1",
-        "erebot/testenv": "~1.0",
-        "pdepend/pdepend": "@stable",
-        "phpunit/phpunit": "@stable"
+        "erebot/buildenv": "^1.1",
+        "erebot/testenv": "^1.1.1",
+        "pdepend/pdepend": "*",
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
