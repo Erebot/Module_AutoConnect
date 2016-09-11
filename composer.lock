@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "37afab44504bb8d22ad50235d87ec0c2",
-    "content-hash": "23a12f721c59211447c6bcb35bbedee8",
+    "hash": "0d1ba7483bc1932b1c93c484788b9cbb",
+    "content-hash": "46074dcab296df66f25ea2e29aede4bb",
     "packages": [
         {
             "name": "erebot/api",
-            "version": "0.7.0",
+            "version": "0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Erebot/API.git",
-                "reference": "21be3a6251810a04d5effb2f4dd0b360515b6012"
+                "reference": "1f905d7742874c511f1445504cbff72c3c442863"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/API/zipball/21be3a6251810a04d5effb2f4dd0b360515b6012",
-                "reference": "21be3a6251810a04d5effb2f4dd0b360515b6012",
+                "url": "https://api.github.com/repos/Erebot/API/zipball/1f905d7742874c511f1445504cbff72c3c442863",
+                "reference": "1f905d7742874c511f1445504cbff72c3c442863",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                 "bot",
                 "irc"
             ],
-            "time": "2016-09-11 10:56:24"
+            "time": "2016-09-11 21:18:57"
         },
         {
             "name": "erebot/callable-wrapper",
@@ -642,16 +642,16 @@
         },
         {
             "name": "erebot/testenv",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Erebot/Testenv.git",
-                "reference": "ea4507b7b8c3140101b184ea37a1de82bd79962d"
+                "reference": "a3f7302ac0cfbfec29ec8b3f007089fae1e02131"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/Testenv/zipball/ea4507b7b8c3140101b184ea37a1de82bd79962d",
-                "reference": "ea4507b7b8c3140101b184ea37a1de82bd79962d",
+                "url": "https://api.github.com/repos/Erebot/Testenv/zipball/a3f7302ac0cfbfec29ec8b3f007089fae1e02131",
+                "reference": "a3f7302ac0cfbfec29ec8b3f007089fae1e02131",
                 "shasum": ""
             },
             "require": {
@@ -687,7 +687,7 @@
             "keywords": [
                 "Erebot"
             ],
-            "time": "2016-09-11 17:41:59"
+            "time": "2016-09-11 20:30:35"
         },
         {
             "name": "myclabs/deep-copy",
