@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Erebot_Module_AutoConnect 1.0.x-dev\n"
 "Report-Msgid-Bugs-To: i18n@erebot.net\n"
-"POT-Creation-Date: 2014-01-05 19:08+0100\n"
+"POT-Creation-Date: 2016-12-17 20:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 #
-# File: src/Erebot/Module/AutoConnect.php, line: 86
+# File: src/AutoConnect.php, line: 75
 msgid ""
 "This module does not provide any command, but can be used in Erebot's "
 "configuration file to make the bot automatically connect to a given server at "
