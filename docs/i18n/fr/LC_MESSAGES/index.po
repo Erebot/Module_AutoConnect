@@ -1,0 +1,42 @@
+# French translations for Erebot_Module_AutoConnect package.
+# Copyright (C) 2011-2016, Erebot
+# This file is distributed under the same license as the Erebot_Module_AutoConnect package.
+# Automatically generated, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Erebot_Module_AutoConnect 1.0.x-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-29 14:36+0100\n"
+"PO-Revision-Date: 2016-12-29 14:36+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../src/index.rst:10
+msgid "Welcome to the documentation for Erebot_Module_AutoConnect!"
+msgstr ""
+
+#: ../src/index.rst:12
+msgid ""
+"Erebot_Module_AutoConnect is a module for `Erebot`_ that makes the bot "
+"automatically connect to some IRC networks upon startup."
+msgstr ""
+
+#: ../src/index.rst:15
+msgid ""
+"Any network configuration with this module loaded (and active) will be marked "
+"as requiring auto-connection upon startup."
+msgstr ""
+
+#: ../src/index.rst:19
+msgid "Contents:"
+msgstr ""
+
+#: ../src/index.rst:30
+msgid "Current status on http://travis-ci.org/: |travis|"
+msgstr ""
