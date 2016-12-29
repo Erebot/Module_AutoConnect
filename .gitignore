@@ -3,12 +3,12 @@
 
 *.mo
 
-/docs/api
-/docs/coverage
-/docs/enduser
-/docs/src/generic
-/docs/pot/.doctrees
-/docs/pot/generic
+/docs/api/
+/docs/coverage/
+/docs/enduser/
+/docs/src/generic/
+/docs/pot/.doctrees/
+/docs/pot/generic/
 /docs/i18n/*/LC_MESSAGES/generic/
 
 /*.pem
