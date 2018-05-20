@@ -18,12 +18,6 @@ Contents:
     Usage
 
 
-Current status on http://travis-ci.org/: |travis|
-
-..  |travis| image:: https://secure.travis-ci.org/Erebot/Erebot_Module_AutoConnect.png
-    :alt: UNKNOWN
-    :target: https://travis-ci.org/Erebot/Erebot_Module_AutoConnect/
-
 ..  _`Erebot`:
     https://www.erebot.net/
 
